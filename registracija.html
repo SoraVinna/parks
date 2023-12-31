@@ -1,0 +1,80 @@
+<html>
+    <head>
+        <title>Ieeja</title>
+        <style>
+            body {font-family: Arial, sans-serif;background-color: #c3d7b8;color: #1c1c1c; margin: 0;padding: 0;}
+            header {background-image:url(fons1.jpg); background-size: cover; height: 200px; display: flex; justify-content: center; align-items: center;}
+            h1 {font-size: 3rem; text-align: center; color: #ffffff;text-shadow: 2px 2px 2px #535151;margin: 0;}
+            h2 {font-size: 3rem; text-align: center; color: #000000;text-shadow: 2px 2px 2px #b1b0b0;margin: 0;}
+            
+            
+            nav {background-color: #1c1c1c;display: flex;justify-content: space-between;align-items: center; padding: 10px}
+            nav a {color: #ffffff;text-decoration: none;font-size: 1.2rem;padding: 10px;}
+            nav a:hover {background-color: #ffffff;color: #1c1c1c;transition: all 0.3s ease-in-out;}
+            
+            main {flex-wrap:wrap ;padding: 30px;text-align: center}
+  
+            article {background-color: #ffffff;box-shadow: 2px 2px 4px #1c1c1c;margin: 20px;flex-basis: 400px;height: 350px;display: flex;flex-direction: column;justify-content: center;align-items: center;}
+            article img {width: 90%;height: auto;margin: 20px;border-radius: 5%;box-shadow: 2px 2px 4px #1c1c1c;}
+            article h2 {font-size: 1.5rem;margin: 0;padding: 10px;text-align: center;color: #1c1c1c;text-shadow: 1px 1px 1px #ffffff;}
+            article p {font-size: 1rem;margin: 0;padding: 10px;text-align: center;color: #707070;}
+            
+            footer {background-color: #1c1c1c;color: #ffffffc2; height: max-content;width: 100%;text-align:justify;}
+            
+            .card {width: 500px;border: 1px solid #000000; background-color: #ffffff;padding: 10px;margin: 10px;display:inline-block;}
+            .card img {width: 90%;border-radius: 5%;margin: 25px;}
+            .card h3 {margin: 0;font-size: 24px;font-weight: bold;text-align:center;}
+            .card h4 {margin: 0;font-size: 16px;;font-family: 'Cinzel Decorative', cursive;text-align:center;}
+            .card p {margin: 0;font-size: 16px;line-height: 1.4;text-align:justify;}
+
+            a {text-decoration: none;}
+            ::selection {color: #ffffff; background-color: #0a4407;}
+        </style>
+    </head>
+    <body>
+        <header>
+            <h1>Sastopamās īpaši aizsargājamās sugas <br>Bauskas dabas parkā</h1>
+        </header>
+        <nav>
+            <a href="index.html">Mājas</a>
+            <a href="parks.html">Bauskas parks</a>
+            <a href="sugas.html">Sugas</a>
+            <a href="atsauksmes.html">Atsauksmes</a>
+            <a href="ieeja.html">Ieeja</a>
+        </nav>
+        <main>
+            <form action="register.php" method="POST">
+                <label for="name">Vārds:</label><br>
+                <input type="text" id="name" name="name" required><br><br>
+            
+                <label for="username">Lietotājvārds:</label><br>
+                <input type="text" id="username" name="username" required><br><br>
+            
+                <label for="email">E-pasts:</label><br>
+                <input type="email" id="email" name="email" required><br><br>
+            
+                <label for="password">Parole:</label><br>
+                <input type="password" id="password" name="password" required><br><br>
+            
+                <label for="confirm_password">Atkārtota parole:</label><br>
+                <input type="password" id="confirm_password" name="confirm_password" required><br><br>
+            
+                <input type="submit" value="Reģistrēties">
+            </form>
+        
+        </main>        
+        <footer> 
+            <br>
+            <p>+371 24598863</p>
+            <br>
+            <img src="facebook.png"; width="50px"; height="auto">
+            <img src="twitter.png"; width="50px"; height="auto">
+            <img src="instagram.png"; width="50px"; height="auto">
+            
+            <hr>
+            <p style="text-align: end; letter-spacing: 2px;">Reklāmdevēji  /  Darbs  /  Atsauksmes  /  Lietotāja līgums  /  Privātuma politika   </p>
+            <br>
+
+        </footer>
+    </body>
+</html>
