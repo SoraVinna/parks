@@ -1,7 +1,5 @@
 <?php
-// Same database connection code as in register.php
 
-// Handle login form submission
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $username = $_POST["username"];
     $password = $_POST["password"];
