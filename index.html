@@ -88,5 +88,15 @@
             <br>
 
         </footer>
+        <script>
+            // Atrod elementu, kuram nepieciešams mainīt fonu
+            const body = document.querySelector('body');
+    
+            // Pievieno event listener pogai, kas mainīs fonu
+            document.getElementById('changeBackground').addEventListener('click', function() {
+                // maina fona krāsu
+                body.style.backgroundColor = '#f2f2f2';
+            });
+        </script>
     </body>
 </html>
